@@ -1,0 +1,71 @@
+.site-button, .site-btn-over {
+    margin: 1px;
+    font-family: Roboto-Regular,serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00a3a4;
+    border: 1px solid #00a3a4;
+    border-radius: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    transition: .3s ease-in;
+    background: transparent;
+    outline: none;
+}
+.site-btn-over {
+    background-color: #00a3a4;
+    color: #fff;
+}
+.site-btn-over:hover {
+    color: #fff;
+}
+.site-btn-over:focus {
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem rgb(0 163 164 / 22%) !important;
+}
+.cian-text, .site-link, a, a:hover {
+    color: #00a3a4;
+}
+.site-link:hover, a:hover, .site-button:hover {
+    color: #03c3c4;
+}
+.cian-border {
+    border: 1px solid #00a3a4;
+    border-radius: 10px;
+}
+.form-control:focus, .custom-select:focus {
+    border-color: #00a3a4 !important;
+    box-shadow: 0 0 0 0.2rem rgb(0 163 164 / 22%) !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.block-shadow {
+    box-shadow: 0 2.76474px 23.2298px rgb(0 0 0 / 4%), 0 1.56844px 13.0224px rgb(0 0 0 / 4%), 0 0.850758px 6.91611px rgb(0 0 0 / 3%), 0 0.362474px 2.87795px rgb(0 0 0 / 2%);
+    border-radius: 10px;
+}
+.dg-btn--cancel {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 163, 164) !important;;
+}
+.dg-btn--ok {
+    margin: 1px;
+    font-family: Roboto-Regular,serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #00a3a4 !important;
+    border: 1px solid #00a3a4 !important;
+    border-radius: 10px;
+}
+.page-link {
+    color: #fff;
+    background-color: #00a3a4;
+    margin: 5px;
+}
+.page-link:hover {
+    color: #fff;
+    background-color: #03c3c4;
+}
