@@ -6,7 +6,7 @@ toastr.options.positionClass = 'toast-top-center';
 
 const api = axios.create({
     baseURL: process.env.MIX_APP_URL ? process.env.MIX_APP_URL :
-        'http://test_briz.loc/api/',
+        'http://3.140.230.130/api/',
     timeout: 10000,
     params: {}
 });
