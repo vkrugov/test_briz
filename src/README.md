@@ -1,3 +1,7 @@
+##Live Demo
+
+http://3.140.230.130/
+
 ## TestApp
 
 Required:
@@ -29,6 +33,8 @@ in .env Fill next fields with your local data:
 - php artisan key:generate
 - php artisan migrate
 - php artisan db:seed
+- npm install
+- npm run dev
 ```
 
 
