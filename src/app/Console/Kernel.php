@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App\Console\Commands\UpdateUserCommand;
 use App\Jobs\UpdateUserNameJob;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -16,7 +17,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-         $schedule->job(UpdateUserNameJob::class)->everyMinute();
+         $schedule->command(UpdateUserCommand::class)->everyMinute();
     }
 
     /**
